@@ -22,18 +22,6 @@ stages:
     - apt-get update
 
   # Put your custom actions below this comment
-
-  - name: example-packages # Sample module using the built-in Apt module to install packages
-    type: apt
-    source:
-      packages:
-      - vim
-
-  - name: example-commands # Sample module demonstrating the Shell module with custom commands
-    type: shell
-    commands:
-    - echo Example output
-
   - name: example-modules # Sample module demonstrating importing local and remote modules
     type: includes
     includes:
