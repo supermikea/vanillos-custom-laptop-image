@@ -1,4 +1,4 @@
-name: Custom VanillaOS Laptop # Replace this name with your image name
+name: Custom-VanillaOS-Laptop # Replace this name with your image name
 id: custom-laptop # Replace this ID with your image ID
 stages:
 - id: build
